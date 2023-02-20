@@ -1,27 +1,27 @@
 #include<stdio.h>
 int main(){
     int a,b,c,d;
-    printf("enter three number");
+    printf("enter four number");
     scanf("%d%d%d%d",&a,&b,&c,&d);
 
-    // three no. 27,28
-    // switch (a>b)
-    // {
-    // case 0:switch (a>c)
-    // {
-    // case 1:printf("a is greater");
-    //     break;
-    //     case 0:printf("c is greater");
-    //     break;
-    // }
-    // case 1:switch (b>c)
-    // {
-    // case1:printf("b is greater");
-    //     break;
-    //     case 0:printf("c is greater");
-    //     break;
-    // }    
-    // four no.29
+    // for three no
+    switch (a>b)
+    {
+    case 0:switch (a>c)
+    {
+    case 1:printf("a is greater");
+        break;
+        case 0:printf("c is greater");
+        break;
+    }
+    case 1:switch (b>c)
+    {
+    case1:printf("b is greater");
+        break;
+        case 0:printf("c is greater");
+        break;
+    }    
+    // for four number
     
     switch (a>b)
     {
@@ -72,25 +72,25 @@ int main(){
     }
     }
     
-    //     case 0:switch(d>a){
-    // case 1:printf("d is greater"); break;
+        case 0:switch(d>a){
+    case 1:printf("d is greater"); break;
     
-    // case 1:printf("a and d are equal and greater");break;
+    case 1:printf("a and d are equal and greater");break;
    
-    // }
+    }
         
-    //     case 0:switch (c>a)
-    //     {
-    //     case 1:switch (c>d)
-    //     {
-    //     case 0:printf("a is greater"); 
-    //         break;
+        case 0:switch (c>a)
+        {
+        case 1:switch (c>d)
+        {
+        case 0:printf("a is greater"); 
+            break;
         
-    //   case 1:switch (d>c)
-    //   {
-    //   case 1:printf("d is grater");
-    //       break;
-    //       case0:printf("d and c are equal"); break;
+      case 1:switch (d>c)
+      {
+      case 1:printf("d is grater");
+          break;
+          case0:printf("d and c are equal"); break;
       
     
     
